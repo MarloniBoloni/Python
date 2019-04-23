@@ -6,7 +6,7 @@ def word_count(str):
 
     for word in words:
         if word in counts:
-            counts[word] += 1     #For each word repeated, increment the number
+            counts[word] += 1     #For each word repeated, increment the number after 1
         else:
             counts[word] = 1      #For each word, number it 1
 
